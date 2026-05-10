@@ -1,14 +1,17 @@
 .hero-section {
     background-color: #2E2F42;
     color: #FFFFFF;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .hero-title {
+    max-width: 496px;
+    margin: 0 auto;
     font-size: 56px;
     font-weight: 700;
     text-align: center;
     line-height: 1.07;
     margin-bottom: 48px;
-    padding-top: 68px;
 }
 
 .order-button {
@@ -26,7 +29,4 @@
 }
 .order-button:hover, .order-button:focus {
     background-color: #404BBF;
-}
-.hero-button-wrap {
-    padding-bottom: 68px;
 }

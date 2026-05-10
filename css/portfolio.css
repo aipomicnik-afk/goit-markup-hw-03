@@ -7,30 +7,29 @@
 }
 .portfolio-list {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
 }
 .portfolio-item {
     width: 360px;
-    border-bottom: 1px solid #E7E9FC;
+    border: 1px solid #E7E9FC;
 }
 .portfolio-item img {
     object-fit: cover;
+}
+.portfolio-list-wrap {
+    padding: 32px 16px;
 } 
 .portfolio-subtitle {
     font-weight: 500;
     font-size: 20px;
     color: #2E2F42;
     line-height: 1.2;
-    padding-top: 32px;
     margin-bottom: 8px;
-    padding-left: 16px;
+
 }
 
 .portfolio-text {
     line-height: 1.5;
-    padding-bottom: 32px;
-    padding-left: 16px;
 }

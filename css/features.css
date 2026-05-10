@@ -1,21 +1,9 @@
-
-.sr-only {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(100%);
-  margin: -1px;
-}
-
 .features-list {
     display: flex;
-    justify-content: space-between;
     column-gap: 24px;
+}
+.features-list-item {
+    width: 264px;
 }
 .features-list-subtitle {
     font-weight: 500;
