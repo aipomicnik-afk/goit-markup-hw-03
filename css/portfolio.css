@@ -13,13 +13,13 @@
 }
 .portfolio-item {
     width: 360px;
-    border: 1px solid #E7E9FC;
 }
 .portfolio-item img {
     object-fit: cover;
 }
 .portfolio-list-wrap {
     padding: 32px 16px;
+    border: 1px solid #E7E9FC;
 } 
 .portfolio-subtitle {
     font-weight: 500;
